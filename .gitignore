@@ -1,0 +1,23 @@
+# Visual Studio  
+.vs/
+
+# Build outputs  
+bin/  
+obj/  
+
+# IDE/user files  
+*.user  
+*.suo  
+
+# App settings  
+appsettings.json  
+appsettings.Development.json  
+
+# HTTP request collection (VS Code REST Client)  
+Resorter.Presentation.http 
+
+# (Optional extras…)  
+*.log  
+.idea/  
+.DS_Store  
+Thumbs.db  

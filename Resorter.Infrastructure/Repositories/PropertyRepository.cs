@@ -5,10 +5,10 @@ using Resorter.Infrastructure.Persistence;
 
 namespace Resorter.Infrastructure.Repositories;
 
-internal class PropertyRepository(ResorterDbContext dbContext) : IPropertyRepository
+public class PropertyRepository(ResorterDbContext dbContext) : IPropertyRepository
 {
     public async Task<IEnumerable<Property>> GetAllAsync()
     {
-        return await dbContext.Properties.ToListAsync();
+       return await dbContext.Properties.ToListAsync();
     }
 }
